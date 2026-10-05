@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Joga o logo para a esquerda e a lista para a direita */
+  align-items: center; /* Centraliza tudo na vertical */
+  background-color: #282c34; /* Cor de fundo escura, moderna */
+  padding: 15px 40px; /* Espaçamento interno: 15px em cima/baixo, 40px nas laterais */
+  color: white; /* Cor da letra */
+}
+
+.navbar-links {
+  display: flex; /* Faz os itens da lista ficarem lado a lado */
+  list-style: none; /* Remove aquelas "bolinhas" padrão das listas do HTML */
+  gap: 30px; /* Cria um espaço de 30px entre cada link */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s; /* Faz a mudança de cor ser suave */
+}
+
+/* Quando o mouse passar por cima do link, muda para azul */
+.navbar-links a:hover {
+  color: #61dafb;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Empilha o Logo em cima e os links embaixo */
+    gap: 15px; /* Espaço entre o Logo e os links */
+    padding: 15px 20px;
+  }
+
+  .navbar-links {
+    gap: 15px; /* Diminui o espaço entre os links */
+    flex-wrap: wrap; /* Se a tela for muito pequena, os links pulam de linha */
+    justify-content: center;
+  }
+}

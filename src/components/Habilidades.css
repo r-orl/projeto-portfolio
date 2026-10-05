@@ -1,0 +1,29 @@
+.habilidades-container {
+  padding: 80px 20px;
+  background-color: #f4f4f9; /* Voltamos para o cinza claro para dar contraste com o 'Sobre' */
+  text-align: center;
+}
+
+.habilidades-titulo {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #282c34;
+}
+
+.habilidades-lista {
+  display: flex;
+  justify-content: center; /* Centraliza as etiquetas */
+  flex-wrap: wrap; /* Se faltar espaço, joga o item para a linha de baixo */
+  gap: 15px; /* Espaço entre as etiquetas */
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.habilidade-item {
+  background-color: #282c34; /* Fundo escuro */
+  color: #61dafb; /* Letra no azul do React */
+  padding: 10px 20px;
+  border-radius: 20px; /* Deixa as bordas bem arredondadas, parecendo uma pílula */
+  font-weight: bold;
+  font-size: 1.1rem;
+}

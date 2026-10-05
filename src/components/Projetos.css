@@ -1,0 +1,67 @@
+.projetos-container {
+  padding: 80px 20px;
+  background-color: #ffffff; /* Fundo branco */
+  text-align: center;
+}
+
+.projetos-titulo {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #282c34;
+}
+
+.projetos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* --- Estilos do Molde (Card) --- */
+.projeto-card {
+  background-color: #f4f4f9;
+  border-radius: 10px;
+  padding: 25px;
+  width: 300px; /* Largura fixa para os cartões ficarem iguais */
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Uma sombra leve para dar profundidade */
+  transition: transform 0.3s; /* Animação suave */
+}
+
+/* Efeito ao passar o mouse por cima do cartão */
+.projeto-card:hover {
+  transform: translateY(-10px); /* O cartão "flutua" para cima */
+}
+
+.projeto-card h3 {
+  color: #282c34;
+  margin-bottom: 10px;
+}
+
+.projeto-card p {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.projeto-techs {
+  font-size: 0.85rem;
+  color: #61dafb;
+  font-weight: bold;
+  background-color: #282c34;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* Estilo para a imagem dentro do cartão */
+.projeto-imagem {
+  width: 100%; /* Faz a imagem ocupar a largura total do cartão */
+  height: 200px; /* Define uma altura padrão para todas ficarem iguais */
+  object-fit: cover; /* Corta as sobras da imagem para ela não ficar espremida nem distorcida */
+  border-radius: 8px; /* Arredonda levemente as bordas da imagem */
+  margin-bottom: 15px; /* Dá um espacinho entre a imagem e o título */
+}

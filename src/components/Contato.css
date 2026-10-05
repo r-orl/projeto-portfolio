@@ -1,0 +1,39 @@
+.contato-container {
+  padding: 80px 20px;
+  background-color: #282c34; /* Fundo escuro */
+  color: white; /* Texto branco */
+  text-align: center;
+}
+
+.contato-titulo {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contato-descricao {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #cccccc; /* Um cinza claro para não cansar a vista */
+}
+
+.contato-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Para não quebrar no telemóvel */
+}
+
+.btn-contato {
+  background-color: #61dafb; /* Azul do React */
+  color: #282c34;
+  padding: 12px 25px;
+  text-decoration: none; /* Remove aquele sublinhado feio padrão dos links */
+  font-weight: bold;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s;
+}
+
+.btn-contato:hover {
+  background-color: #4fa8c7; /* Fica um pouco mais escuro ao passar o rato */
+}

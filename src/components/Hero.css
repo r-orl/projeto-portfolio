@@ -1,0 +1,72 @@
+.hero-container {
+  display: flex;
+  flex-direction: column; /* Empilha os itens de cima para baixo */
+  align-items: center; /* Centraliza na horizontal */
+  justify-content: center; /* Centraliza na vertical */
+  text-align: center;
+  padding: 80px 20px; /* Dá um respiro grande em cima e embaixo */
+  background-color: #f4f4f9; /* Uma cor de fundo bem clarinha */
+  color: #333; /* Cor do texto cinza escuro */
+}
+
+.hero-title {
+  font-size: 3rem; /* Deixa o nome bem grande */
+  margin-bottom: 10px;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #666; /* Um cinza mais claro para o subtítulo */
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  max-width: 600px; /* Impede que o texto fique muito largo em telas grandes */
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px; /* Espaço entre os botões */
+}
+
+.btn-primary, .btn-secondary {
+  padding: 10px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px; /* Deixa as bordas arredondadas */
+  font-weight: bold;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #61dafb; /* Azul do React */
+  color: #282c34;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 2px solid #282c34;
+  color: #282c34;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem; /* Diminui o tamanho do seu nome para caber na tela */
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column; /* Coloca um botão em cima do outro */
+    width: 100%; /* Faz os botões ocuparem a largura toda */
+    max-width: 300px;
+  }
+
+  .btn-primary, .btn-secondary {
+    width: 100%; /* Faz o botão esticar */
+  }
+}

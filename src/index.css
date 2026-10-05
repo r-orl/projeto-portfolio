@@ -1,0 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+/* O asterisco (*) seleciona absolutamente TODOS os elementos da página */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Regras gerais para o corpo do nosso site */
+body {
+  font-family: Arial, Helvetica, sans-serif; /* Define uma fonte limpa */
+  background-color: #ffffff; /* Fundo branco global */
+  color: #333333; /* Cor do texto global escuro, para não sumir! */
+}
