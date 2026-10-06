@@ -1,39 +1,15 @@
-.contato-container {
-  padding: 80px 20px;
-  background-color: #282c34; /* Fundo escuro */
-  color: white; /* Texto branco */
-  text-align: center;
-}
-
-.contato-titulo {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-.contato-descricao {
-  font-size: 1.1rem;
-  margin-bottom: 40px;
-  color: #cccccc; /* Um cinza claro para não cansar a vista */
-}
-
-.contato-links {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap; /* Para não quebrar no telemóvel */
-}
-
+.contato-container { padding: 100px 20px; background-color: #1e293b; text-align: center; }
+.contato-titulo { font-size: 2.5rem; margin-bottom: 20px; color: #f8fafc; }
+.contato-descricao { font-size: 1.1rem; margin-bottom: 40px; color: #94a3b8; }
+.contato-links { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
 .btn-contato {
-  background-color: #61dafb; /* Azul do React */
-  color: #282c34;
+  background-color: #38bdf8;
+  color: #0f172a;
   padding: 12px 25px;
-  text-decoration: none; /* Remove aquele sublinhado feio padrão dos links */
-  font-weight: bold;
+  text-decoration: none;
+  font-weight: 600;
   border-radius: 8px;
   font-size: 1.1rem;
-  transition: background-color 0.3s;
+  transition: all 0.3s ease;
 }
-
-.btn-contato:hover {
-  background-color: #4fa8c7; /* Fica um pouco mais escuro ao passar o rato */
-}
+.btn-contato:hover { background-color: #0ea5e9; transform: translateY(-3px); }

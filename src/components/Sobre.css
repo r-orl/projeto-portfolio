@@ -1,24 +1,15 @@
 .sobre-container {
-  padding: 80px 20px;
-  background-color: #ffffff; /* Fundo branco para diferenciar da seção anterior */
-  text-align: center; /* Centraliza o título */
-  color: #333;
+  padding: 100px 20px;
+  background-color: #1e293b; /* Fundo levemente diferente para destacar a seção */
+  text-align: center;
 }
-
-.sobre-titulo {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
-  color: #282c34;
-}
-
+.sobre-titulo { font-size: 2.5rem; margin-bottom: 30px; color: #f8fafc; font-weight: 700; }
 .sobre-conteudo {
-  max-width: 800px; /* Impede que o texto fique gigante em telas muito largas */
-  margin: 0 auto; /* O "auto" nas laterais é o que centraliza a caixa inteira na tela */
+  max-width: 800px;
+  margin: 0 auto;
   font-size: 1.1rem;
-  line-height: 1.8; /* Dá um respiro bom entre as linhas do texto */
-  text-align: center; /* O texto em si fica alinhado à esquerda para leitura confortável */
+  line-height: 1.8;
+  text-align: center; /* Centralizado fica mais elegante no tema dark */
+  color: #94a3b8; /* Texto de leitura confortável */
 }
-
-.sobre-conteudo p {
-  margin-bottom: 15px; /* Espaço entre os parágrafos */
-}
+.sobre-conteudo p { margin-bottom: 15px; }
